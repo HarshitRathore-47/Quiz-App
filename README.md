@@ -1,12 +1,87 @@
-# React + Vite
+## 📚 Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+   A simple and interactive Quiz Application built with React.
+   This app allows users to test their knowledge by answering multiple-choice questions and see their score at the end.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎯 Multiple-choice quiz questions
 
-## Expanding the ESLint configuration
+📝 Displays one question at a time
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Tracks correct and incorrect answers
+
+🏆 Shows final score after completion
+
+🔄 Option to restart the quiz
+
+## 🛠 Tech Stack
+
+Frontend: React, JavaScript, TailwindCSS (or your CSS framework)
+
+Data Storage: Local JS file (questions.js) for questions
+
+State Management: React Hooks (useState)
+
+## 📂 Project Structure
+quiz-app/
+│── public/
+│── src/
+│   ├── components/
+│   │   └── QuestionCard.jsx
+│   ├── data/
+│   │   └── questions.js
+│   ├── App.jsx
+│   ├── index.js
+│── package.json
+│── README.md
+
+## ⚡ Installation & Setup
+
+## Clone the repository:
+
+git clone https://github.com/your-username/quiz-app.git
+cd quiz-app
+
+
+## Install dependencies:
+
+npm install
+
+
+## Start the development server:
+
+npm start
+
+
+## open your browser and visit:
+
+http://localhost:3000
+
+## 🎯 Future Enhancements
+
+- Add timer for each question
+
+- Show explanations for correct answers
+
+- Randomize question order
+
+- Save progress using local storage or database
+
+- Add login system for multiple users
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1.Fork this repo
+
+2.Create a new branch (feature-branch)
+
+3.Commit changes and push
+
+4.Open a Pull Request
+
+## 📜 License
+
+This project is licensed under the MIT License – feel free to use and modify it.
